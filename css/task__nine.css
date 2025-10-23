@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+}
+
+.box {
+  width: auto;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.squareTaskNine {
+  background-color: transparent;
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 5px;
+}
+
+.squareTaskNine img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+}

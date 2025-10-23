@@ -1,0 +1,27 @@
+.main {
+  height: auto;
+  flex-direction: column;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 1000px;
+}
+
+#modalWindow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  background-color: grey;
+  z-index: 1;
+}

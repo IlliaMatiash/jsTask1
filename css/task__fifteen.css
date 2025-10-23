@@ -1,0 +1,21 @@
+.box {
+  width: auto;
+  height: auto;
+}
+
+#bigBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+#smallBox {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}

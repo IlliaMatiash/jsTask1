@@ -1,0 +1,8 @@
+.box {
+  display: flex;
+  width: auto;
+}
+
+.square {
+  margin: 0 10px;
+}

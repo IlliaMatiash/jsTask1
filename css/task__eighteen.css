@@ -1,0 +1,24 @@
+p {
+  color: #000;
+  margin: 10px 0;
+}
+.upload-area {
+  border: 3px dashed #bbb;
+  border-radius: 16px;
+  padding: 40px;
+  width: 320px;
+  text-align: center;
+  background: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.upload-area.dragover {
+  border-color: #4caf50;
+  background-color: #f0fff0;
+  transform: scale(1.03);
+}
+
+.upload-area input {
+  display: none;
+}

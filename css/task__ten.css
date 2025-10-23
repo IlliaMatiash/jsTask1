@@ -1,0 +1,16 @@
+.coordinates {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+.coordinate__container {
+  padding: 10px 20px;
+  width: 100px;
+}
